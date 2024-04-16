@@ -1,0 +1,80 @@
+.review-slider-content {
+    width: 100%;
+    height: 400px;
+    /* background-color: rgb(194, 180, 233); */
+    float: left;
+    /* margin: auto; */
+}
+
+.review-card {
+    width: 99%;
+    height: 100%;
+    background-color: #193149;
+    /* margin: 0 20px; */
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    float: left;
+    box-shadow: 0 4px 4px 4px rgba(37, 35, 35, 0.23);
+}
+
+.review-card .review-img {
+    height: 120px;
+    width: 120px;
+    border: 2px solid #10b8eb;
+    border-radius: 50%;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #c8ecf8;
+
+}
+
+.review-card .review-title {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    margin-top: 5px;
+    /* background-color: azure; */
+    text-align: center;
+    /* float: left; */
+}
+
+.review-card .review-review {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    /* background-color: black; */
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOR TABLETS SCREEN ONLY */
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .review-slider-content {
+        width: 100%;
+        height: auto;
+        /* background-color: rgb(252, 61, 3); */
+        float: left;
+        /* margin: auto; */
+    }
+
+
+}

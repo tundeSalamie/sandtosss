@@ -1,0 +1,12 @@
+
+
+
+
+.main-container {
+    width: 95%;
+    height: 95%;
+    display: flex;
+    /* float: left; */
+    margin: auto;
+    background-color: red;
+}

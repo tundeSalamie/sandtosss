@@ -1,0 +1,185 @@
+
+
+@font-face {
+    font-family: "titilium";
+    src: url("/fonts/TitilliumWeb-Light.ttf") format("truetype");
+  }
+
+
+
+  @font-face {
+    font-family: "Montserrat-Bold";
+    src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
+  }
+
+
+
+
+
+
+.myquee {
+    /* min-height: 90vh; */
+    height: auto;
+    width: 100%;
+    /* background-color: #021529; */
+    background-color: #010911;
+    float: left;
+    /* padding: 35px; */
+    /* text-align: center; */
+    /* background-image: url('/imgs/myquee/myquee_bg.fw.png');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    
+}
+
+.myquee .myquee_cover {
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-top: 0;
+    padding: 35px;
+    /* background-color: red; */
+    /* background: linear-gradient(#010911, transparent); */
+}
+
+.myquee p {
+    margin-left: 20px;
+    font-size: 30px;
+    color: #96e2ec;
+    line-height: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: "Montserrat-Bold";
+    margin-top: 70px;
+  
+
+}
+
+
+.myquee h5 {
+
+    margin-left: 20px;
+    font-size: 25px;
+    color: #63eff7;
+    line-height: 18px;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: "Montserrat-Bold";
+    /* margin-bottom: 20px; */
+  
+
+}
+
+
+
+
+.myquee_container {
+    width: 100%;
+    height: 80%;
+    margin: 20px auto;
+    /* background-color: aquamarine; */
+    padding: 20px 0;
+}
+
+.myquee_wrapper {
+    margin: auto 5px;
+}
+
+/* .myquee_wrapper img {
+    width: 80%;
+} */
+
+.myquee h1 span {
+    font-size: 30px;
+    height: auto;
+    /* font-weight: lighter; */
+    color: #63eff7;
+    /* color: #d4d4d4; */
+    /* line-height: 40px; */
+    /* text-indent: 10px; */
+    word-spacing: 0;
+    /* font-family: "Open Sans"; */
+    margin-left: 25px;
+    border-left: 25px solid #7d9194;
+    /* border-right: 20px solid #63eff7; */
+    padding: 0 0 0 5px;
+}
+
+
+
+
+
+/* FOR MOBILE DEVICE SCREENS ONLY */
+
+@media screen and (max-width: 767px) {
+
+    .myquee {
+        /* height: 200px; */
+        height: auto;
+        width: 100%;
+        /* background-color: red; */
+        float: left;
+        /* padding: 20px 5px; */
+    }
+
+    .myquee .myquee_cover { 
+        padding: 20px 5px;
+
+    }
+
+
+
+    .myquee_container {
+        width: 100%;
+        height: 80%;
+        margin: 20px auto;
+        /* background-color: aquamarine; */
+        padding: 20px 0;
+    }
+
+    .myquee p {
+        margin-left: 20px;
+        font-size: 25px;
+        color: #96e2ec;
+        line-height: 18px;
+        text-transform: capitalize;
+        font-weight: bold;
+        font-family: "Montserrat-Bold";
+        margin-top: 70px;
+        /* margin-bottom: 20px; */
+      
+    
+    }
+
+
+
+
+
+
+
+    .myquee_wrapper {
+        margin: auto 5px;
+    }
+    
+    /* .myquee_wrapper img {
+        width: 80%;
+    } */
+
+}
+
+
+
+
+
+
+
+
+
+
+/* FOR TABLET SCREENS */
+
+
+/* @media screen and (min-width: 768px) and (max-width: 991px) {
+
+} */

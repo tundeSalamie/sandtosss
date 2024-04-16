@@ -1,0 +1,19 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app.css": "/css/app.css",
+    "/fonts/AlternateGotNo1D.ttf": "/fonts/AlternateGotNo1D.ttf",
+    "/fonts/AlternateGotNo2D.ttf": "/fonts/AlternateGotNo2D.ttf",
+    "/fonts/AlternateGotNo3D.ttf": "/fonts/AlternateGotNo3D.ttf",
+    "/fonts/DosisFont.ttf": "/fonts/DosisFont.ttf",
+    "/fonts/Montserrat-Bold.ttf": "/fonts/Montserrat-Bold.ttf",
+    "/fonts/Montserrat-Regular.ttf": "/fonts/Montserrat-Regular.ttf",
+    "/fonts/OpenSans.ttf": "/fonts/OpenSans.ttf",
+    "/fonts/TisaSansPro.ttf": "/fonts/TisaSansPro.ttf",
+    "/fonts/TitilliumWeb-Black.ttf": "/fonts/TitilliumWeb-Black.ttf",
+    "/fonts/TitilliumWeb-Bold.ttf": "/fonts/TitilliumWeb-Bold.ttf",
+    "/fonts/TitilliumWeb-Light.ttf": "/fonts/TitilliumWeb-Light.ttf",
+    "/fonts/TitilliumWeb-Regular.ttf": "/fonts/TitilliumWeb-Regular.ttf",
+    "/fonts/vendor/react-multi-carousel/lib/revicons.eot": "/fonts/vendor/react-multi-carousel/lib/revicons.eot",
+    "/fonts/vendor/react-multi-carousel/lib/revicons.ttf": "/fonts/vendor/react-multi-carousel/lib/revicons.ttf",
+    "/fonts/vendor/react-multi-carousel/lib/revicons.woff": "/fonts/vendor/react-multi-carousel/lib/revicons.woff"
+}

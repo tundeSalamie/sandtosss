@@ -1,0 +1,260 @@
+
+
+
+
+
+
+@font-face {
+    font-family: "Dosis";
+    src: url("/fonts/DosisFont.ttf") format("truetype");
+    font-weight: bolder; 
+  }
+
+  @font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "titilium";
+    src: url("/fonts/TitilliumWeb-Light.ttf") format("truetype");
+  }
+
+
+  @font-face {
+    font-family: "Montserrat-Bold";
+    src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
+  }
+
+
+
+
+
+h1 {
+    font-family: "Open Sans";
+    /* font-family: "Montserrat-Bold"; */
+
+}
+
+h5 {
+    /* font-family: "Open Sans"; */
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    font-family: "titilium";
+}
+
+
+
+
+
+.whatwedo {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    float: left;
+    background-color: #021529;
+    /* background-color: green; */
+    padding: 35px;
+    /* background-image: linear-gradient(to bottom, #010911, #021529,); */
+    background: linear-gradient(#010911, #021529);
+    background-image: url('/imgs/wedo_bg.fw.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.wedo-container {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 5px;
+    /* background-color: #595d61; */
+    float: left;
+    background-image: linear-gradient(to bottom, #010911, #021529,);
+    /* background-image: url('/imgs/wedo_bg.fw.png');
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.wedo-container .wedo-top {
+    width: 100%;
+    height: 10%;
+    /* background-color: greenyellow; */
+    float: left;
+    margin-bottom: 20px;
+}
+
+.wedo-top h5 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #96e2ec;
+    margin-top: 25px;
+    margin-left: 25px;
+    /* vertical-align: bottom; */
+
+}
+
+
+
+
+.wedo-container .wedo-content {
+    width: 100%;
+    /* height: 80%; */
+    height: 100%;
+    /* background-color: red; */
+    float: left;
+    /* border: 1px solid #96e2ec; */
+    color: #ffffff;
+
+}
+
+.wedo-container .wedo-footer {
+    width: 100%;
+    height: 10%;
+    /* background-color: bisque; */
+    float: left;
+    margin-bottom: 50px;
+    
+}
+
+.wedo-container .wedo-footer h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #ffffff;
+    line-height: 40px;
+    margin-left: 20px;
+    /* text-indent: 10px; */
+    word-spacing: 0;
+}
+
+
+.wedo-container .wedo-footer h1 span {
+    color: #63eff7;
+    font-weight: bolder;
+
+}
+
+
+
+
+
+
+
+
+
+/* MOBILE DEVICES ONLY */
+
+@media screen and (max-width: 767px) {
+
+    .whatwedo {
+        padding: 0;
+        height: auto;
+        width: 100%;
+        /* background-color: rgb(250, 100, 100); */
+        float: left;
+       
+    }
+
+    .wedo-container {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        padding: 10px;
+        /* background-color: #a3c2e0; */
+        float: left;
+        margin-bottom: 30px;
+    }
+
+    .wedo-container .wedo-top {
+        /* width: 100%; */
+        height: 10%;
+        /* background-color: greenyellow; */
+       
+    }
+
+    .wedo-container .wedo-footer {
+        height: 10%;
+    }
+
+    .wedo-top h5 {
+        margin-top: 30px;
+        vertical-align: bottom;
+        font-size: 25px;
+        float: left;
+    }
+
+    .wedo-container .wedo-footer h1 {
+        /* font-size: 45px;
+        line-height: 45px;
+        margin-top: 0; */
+        font-size: 45px;
+        line-height: 40px;
+        margin-top: 30px;
+        font-weight: bolder;
+        color: #fff;
+    }
+
+    .wedo-container .wedo-content {
+        height: auto;
+        width: 100%;
+        float: left;
+        /* background-color: palevioletred; */
+        margin-top: 30px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOR TABLET SCREENS */
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+
+    .whatwedo {
+        width: 100%;
+        /* height: 100vh; */
+        height: auto;
+        float: left;
+        background-color: #021529;
+        /* background-color: #010911; */
+        /* padding: 30px */
+    }
+    
+    
+    .wedo-container {
+        width: 100%;
+        height: auto;
+        margin: auto;
+        padding: 5px;
+        /* background-color: #010911; */
+        float: left;
+    }
+
+    .wedo-container .wedo-content {
+        width: 100%;
+        /* height: 80%; */
+        height: auto;
+        /* background-color: red; */
+        float: left;
+        /* border: 1px solid #96e2ec; */
+        color: #ffffff;
+    
+    }
+
+}

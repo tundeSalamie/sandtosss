@@ -1,0 +1,271 @@
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Dosis";
+    src: url("/fonts/DosisFont.ttf") format("truetype");
+    font-weight: bolder; 
+  }
+
+  @font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "titilium";
+    src: url("/fonts/TitilliumWeb-Light.ttf") format("truetype");
+  }
+
+
+  @font-face {
+    font-family: "Montserrat-Bold";
+    src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
+  }
+
+
+
+
+
+h1 {
+    font-family: "Open Sans";
+    /* font-family: "Montserrat-Bold"; */
+
+}
+
+h5 {
+    /* font-family: "Open Sans"; */
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    font-family: "titilium";
+}
+
+
+
+.faq {
+    min-height: 100vh;
+    height: auto;
+    width: 100%;
+    float: left;
+    /* background-color: #02172c; */
+    background-color: #010911;
+    color: aqua;
+    /* padding: 30px; */
+    background-image: url('/imgs/faq_bg.fw.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.faq-container {
+    width: 100%;
+    height: 100%;
+    float: left;
+    padding: 35px;
+    background: linear-gradient(#010911, transparent);
+    /* background-color: red; */
+}
+
+.faq-l {
+    width: 50%;
+    height: 100%;
+    float: left;
+    /* background-color: blue; */
+    padding: 5px;
+
+}
+
+
+.faq-header {
+    width: 100%;
+    height: 10%;
+    float: left;
+    margin-bottom: 20px;
+    /* background-color: aqua; */
+    /* vertical-align: bottom; */
+}
+
+.faq-header h5 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #96e2ec;
+    margin-top: 25px;
+    margin-left: 25px;
+    /* vertical-align: bottom; */
+
+}
+
+
+
+
+.faq-content {
+    width: 100%;
+    height: 80%;
+    float: left;
+    /* background-color: brown; */
+    padding: 5px 0 0 20px;
+}
+
+.faq-content h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #ffffff;
+    line-height: 40px;
+    /* text-indent: 10px; */
+    word-spacing: 0;
+}
+
+
+.faq-content p {
+    font-size: 20px;
+    color: #d4f6f8;
+    line-height: 18px;
+    /* padding-right: 10px; */
+    /* padding-left: 10px; */
+    width: 80%;
+}
+
+.faq-l .faq-content h1 span {
+    color: #63eff7;
+    font-weight: bolder;
+
+}
+
+
+.faq-footer {
+    width: 100%;
+    height: 10%;
+    float: left;
+    /* background-color: black; */
+}
+
+.faq-r {
+    width: 50%;
+    height: 100%;
+    float: left;
+    /* background-color: rgb(17, 219, 44); */
+    padding: 5px;
+    
+}
+
+.faq-r .major-accordion {
+    margin-top: 30px;
+    /* background-color: red; */
+    width: 100%;
+    float: left;
+    padding: 10px;
+}
+
+
+
+
+
+
+/* MOBILE DEVICES ONLY */
+/* @media screen and (max-width: 1024px) { */
+    @media screen and (max-width: 767px) {
+
+    .faq {
+        padding: 0;
+        height: auto;
+    }
+
+    .faq-container {
+        width: 100%;
+        height: 100%;
+        float: left;
+        padding: 10px;
+        /* background-color: red; */
+    }
+
+    .faq-l {
+        width: 100%;
+        height: auto;
+    }
+
+    .faq-r {
+        width: 100%;
+        height: 80vh;
+    }
+
+    .faq-l .faq-header h5 {
+        vertical-align: bottom;
+        font-size: 25px;
+    }
+
+    .faq-content h1 {
+        font-size: 45px;
+        line-height: 40px;
+        margin-top: 30px;
+        font-weight: bolder;
+        color: #fff;
+    }
+
+    .faq-content p {
+        color: #d4f6f8;
+        font-size: 20px;
+        line-height: 18px;
+        width: 100%;
+        padding-right: 30px;
+    }
+
+}
+
+
+
+
+
+
+/* FOR TABLET SCREENS */
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .faq {
+        height: auto;
+        width: 100%;
+        float: left;
+        /* background-color: #7bee8e; */
+        background-color: #010911;
+        color: aqua;
+        padding: 0;
+    }
+    
+    
+    .faq-container {
+        width: 100%;
+        height: 100%;
+        float: left;
+        padding: 35px;
+        /* background-color: red; */
+    }
+
+    .faq-l {
+        width: 100%;
+        height: auto;
+        float: left;
+        /* background-color: blue; */
+        padding: 5px;
+    
+    }
+
+    .faq-r {
+        width: 100%;
+        /* height: 80vh; */
+        height: auto;
+        float: left;
+        /* background-color: rgb(17, 219, 44); */
+        padding: 5px;
+        margin-bottom: 50px;
+        
+    }
+
+}

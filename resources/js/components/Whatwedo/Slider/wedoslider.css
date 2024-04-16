@@ -1,0 +1,288 @@
+
+
+
+
+
+@font-face {
+    font-family: "Dosis";
+    src: url("/fonts/DosisFont.ttf") format("truetype");
+    font-weight: bolder; 
+  }
+
+  @font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "titilium";
+    src: url("/fonts/TitilliumWeb-Light.ttf") format("truetype");
+  }
+
+
+  @font-face {
+    font-family: "Montserrat-Bold";
+    src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
+  }
+
+
+
+
+
+h1 {
+    font-family: "Open Sans";
+    /* font-family: "Montserrat-Bold"; */
+
+}
+
+h5 {
+    /* font-family: "Open Sans"; */
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    font-family: "titilium";
+}
+
+
+
+
+
+.wedo-slider-content {
+    width: 100%;
+    height: 100vh;
+    /* background-color: rgb(202, 202, 19); */
+    float: left;
+    /* background-image: url('/imgs/wedo_1_bg.fw.png');
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.wedo-slider-content .wedo-slider-container {
+    width: 100%;
+    height: 100%;
+    /* background-color: brown; */
+    float: left;
+    
+}
+
+/* .wedo-slider-content .wedo-slider-container .active {
+   background: #d4f6f8;
+}
+.wedo-slider-content .wedo-slider-container .inactive {
+   background: red;
+} */
+
+.wedo-slider-content .wedo-slider-l {
+    width: 45%;
+    height: 100%;
+    /* background-color: antiquewhite; */
+    float: left;
+    padding: 10px;
+    /* line-height: 5px; */
+    /* justify-content: center; */
+    /* background-image: url('/imgs/wedo_1_bg.fw.png');
+    background-size: cover;
+    background-repeat: no-repeat; */
+    
+}
+
+.wedo-slider-content .wedo-slider-l h1 {
+    margin-top: 200px;
+    line-height: 45px;
+}
+
+.wedo-slider-content .wedo-slider-l .hashtags {
+    color: #63eff7;
+    font-weight: bolder;
+}
+
+.wedo-slider-content .wedo-slider-r {
+    width: 55%;
+    height: 100%;
+    /* height: auto; */
+    /* background-color: red; */
+    float: left;
+    /* padding: 20px; */
+    display: flex;
+    /* background-size: cover; */
+    /* object-fit: scale-down; */
+    /* border: 1px solid rgb(131, 191, 231); */
+}
+
+.wedo-slider-content .wedo-slider-r .tabimg {
+        max-width: 600px;
+        /* min-width: 100%; */
+        max-height: 550px;
+        margin: auto;
+       /* display: block; */
+        /* min-height: 100%; */
+        /* position: absolute; */
+        object-fit: scale-down;
+        padding: 5px;
+        /* display: flex; */
+        /* background-size: cover; */
+
+}
+
+.wedo-slider-content .wedo-slider-l h1 {
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+
+}
+
+.wedo-slider-content .wedo-slider-l p {
+    font-size: 20px;
+    /* color: #d4f6f8; */
+    color: #fff;
+    line-height: 20px;
+    width: 90%;
+    padding-left: 5px;
+    margin-top: 10px;
+    /* background: red; */
+}
+
+
+
+
+
+/* FOR MOBILE DEVICE SCREENS ONLY */
+
+@media screen and (max-width: 767px) {
+
+    .wedo-slider-content {
+        width: 100%;
+        height: 90vh;
+        /* background-color: rgb(202, 202, 19); */
+        float: left;
+        margin-bottom: 20px;
+        /* margin-top: 20px; */
+    }
+
+    .wedo-slider-content .wedo-slider-container {
+        width: 100%;
+        height: auto;
+        /* background-color: brown; */
+        float: left;
+        /* margin-top: 30px; */
+    }
+
+    .wedo-slider-content .wedo-slider-l {
+        width: 100%;
+        height: 30%;
+        /* height: auto; */
+        /* background-color: antiquewhite; */
+        float: left;
+        /* margin-top: 50px; */
+        text-align: left;
+    }
+
+    .wedo-slider-content .wedo-slider-l h5 {
+        vertical-align: bottom;
+        font-size: 18px;
+    }
+
+    .wedo-slider-content .wedo-slider-l h1 {
+        /* font-size: 35px;
+        line-height: 35px;
+        margin-top: 10px; */
+        font-size: 45px;
+        line-height: 45px;
+        margin-top: 30px;
+        font-weight: bolder;
+        color: #fff;
+    }
+
+    .wedo-slider-content .wedo-slider-l p {
+        color: #d4f6f8;
+        font-size: 20px;
+        line-height: 20px;
+        width: 100%;
+        padding-right: 5px;
+    }
+    
+    .wedo-slider-content .wedo-slider-r {
+        width: 100%;
+        /* height: 70vh; */
+        height: auto;
+        /* background-color: rgb(18, 182, 59); */
+        float: left;
+        margin-bottom: 50px;
+        /* display: flex; */
+
+    }
+
+
+
+
+
+}
+
+
+
+
+/* FOR TABLET SCREENS */
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+
+    .wedo-slider-content {
+        width: 100%;
+        height: auto;
+        /* background-color: rgb(202, 202, 19); */
+        float: left;
+        margin-top: 50px;
+    }
+    
+
+
+
+
+    .wedo-slider-content .wedo-slider-l {
+        width: 100%;
+        height: auto;
+        /* background-color: antiquewhite; */
+        float: left;
+        /* overflow: hidden; */
+        /* margin-bottom: 20px; */
+        /* line-height: 15px; */
+    }
+    
+    .wedo-slider-content .wedo-slider-r {
+        width: 100%;
+        height: 80vh;
+        /* height: auto; */
+        /* background-color: rgb(131, 191, 231); */
+        float: left;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 20px;
+        /* align-items: center; */
+
+    }
+
+    .wedo-slider-content .wedo-slider-l h1 {
+        margin-top: 20px;
+        line-height: 45px;
+        text-align: right;
+    }
+
+
+    .wedo-slider-content .wedo-slider-l p {
+        font-size: 20px;
+        color: #d4f6f8;
+        line-height: 18px;
+        width: 90%;
+        padding-left: 5px;
+        text-align: right;
+        float: right;
+        /* margin-bottom: 20px; */
+    }
+
+    
+    
+
+
+}

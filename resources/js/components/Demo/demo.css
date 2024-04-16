@@ -1,0 +1,500 @@
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Dosis";
+    src: url("/fonts/DosisFont.ttf") format("truetype");
+    font-weight: bolder; 
+  }
+
+  @font-face {
+    font-family: "Open Sans";
+    src: url("/fonts/OpenSans.ttf") format("truetype");
+  }
+
+  @font-face {
+    font-family: "titilium";
+    src: url("/fonts/TitilliumWeb-Light.ttf") format("truetype");
+  }
+
+
+  @font-face {
+    font-family: "Montserrat-Bold";
+    src: url("/fonts/Montserrat-Bold.ttf") format("truetype");
+  }
+
+
+
+
+
+h1 {
+    font-family: "Open Sans";
+    /* font-family: "Montserrat-Bold"; */
+
+}
+
+h5 {
+    /* font-family: "Open Sans"; */
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    font-family: "titilium";
+}
+
+
+
+
+.demo {
+    width: 100%;
+    /* height: 100vh; */
+    height: auto;
+    min-height: 100vh;
+    float: left;
+    background-color: #010911;
+    /* padding: 30px; */
+    background-image: url('/imgs/app_bg_2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.demo-container {
+    width: 100%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 35px;
+    float: left;
+    /* background-color: #010911; */
+    background: linear-gradient(#021529, transparent);
+    /* opacity: 0.90; */
+
+}
+
+.demo-container .demo-l {
+    width: 50%;
+    height: 100%;
+    /* background-color: green; */
+    float: left;
+    padding: 5px;
+}
+
+.demo-container .demo-r {
+    width: 50%;
+    /* height: 100%; */
+    height: auto;
+    /* background-color: yellow; */
+    float: left;
+    padding: 20px;
+    
+}
+
+.demo-l .demo-header {
+    width: 100%;
+    height: 10%;
+    float: left;
+    margin-bottom: 25px;
+    /* background-color: antiquewhite; */
+}
+
+
+.demo-l .demo-header h5 {
+    font-size: 25px;
+    font-weight: bolder;
+    color: #96e2ec;
+    margin-top: 25px;
+    margin-left: 20px;
+    /* vertical-align: bottom; */
+
+}
+
+
+
+.demo-l .demo-content {
+    width: 100%;
+    height: 80%;
+    float: left;
+    /* background-color: rgb(221, 131, 13); */
+}
+
+
+.demo-content h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #ffffff;
+    line-height: 40px;
+    /* text-indent: 10px; */
+    word-spacing: 0;
+    margin-left: 20px;
+}
+
+.demo-l .demo-content h1 span {
+    color: #63eff7;
+    font-weight: bolder;
+
+}
+
+.demo-content p {
+    font-size: 20px;
+    color: #d4f6f8;
+    line-height: 18px;
+    /* padding-right: 10px; */
+    /* padding-left: 10px; */
+    width: 80%;
+    margin-left: 20px;
+    /* margin-left: 25px; */
+}
+
+
+
+
+
+
+.demo-l .demo-footer {
+    width: 100%;
+    height: 10%;
+    float: left;
+    /* background-color: rgb(212, 35, 168); */
+}
+
+.demo-r .demo-form {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    float: left;
+    background-color: #021529;
+    padding: 70px;
+    box-shadow: 0 4px 4px 4px rgba(7, 7, 7, 0.23);
+    border-radius: 6px;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.demo-r .demo-form h3 {
+    color: #98dcf7;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    padding: 5px 10px;
+    /* text-align: center; */
+}
+
+.demo-r .demo-form p {
+    color: rgb(190, 250, 70);
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+.demo-r .demo-form .error-message {
+    color: rgb(252, 49, 49);
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 5px;
+    float: left;
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+/* FORM STYLING STARTS HERE */
+.demo-r .demo-form .row100 {
+    position: relative;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(100%,1fr));
+}
+
+.demo-r .demo-form .row100 .col {
+    position: relative;
+    width: 100%;
+    padding: 0 10px;
+    margin: 30px 0 10px;
+    transition: 0.5s;
+}
+
+.demo-r .demo-form .row100 .inputBox {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    color: #96e2ec;
+}
+
+.demo-r .demo-form .row100 .textarea {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    color: #96e2ec;
+    /* padding: 0 10px; */
+}
+
+
+/* .contact-r .contact-wrapper .row100 .inputBox .textarea textarea */
+.demo-r .demo-form .row100 .inputBox input,
+.demo-r .demo-form .row100 .inputBox textarea {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 0 10px;
+    z-index: 1;
+    color: #363636;
+}
+
+.demo-r .demo-form .row100 .inputBox .text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 40px;
+    font-size: 18px;
+    padding: 0 10px;
+    display: block;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.demo-r .demo-form .row100 .inputBox input:focus + .text,
+.demo-r .demo-form .row100 .inputBox input:valid + .text {
+    top: -35px;
+    left: -10px;
+}
+
+.demo-r .demo-form .row100 .inputBox .line {
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background: #96e2ec;
+    transition: 0.5s;
+    border-radius: 2px;
+    pointer-events: none;
+}
+
+
+
+.demo-r .demo-form .row100 .inputBox input:focus ~ .line,
+.demo-r .demo-form .row100 .inputBox input:valid ~ .line {
+    height: 100%;
+
+}
+
+.demo-r .demo-form .row100 .inputBox textarea:focus + .text,
+.demo-r .demo-form .row100 .inputBox textarea:valid + .text {
+    top: -35px;
+    left: -10px;
+}
+
+.demo-r .demo-form .row100 .inputBox textarea:focus ~ .line,
+.demo-r .demo-form .row100 .inputBox textarea:valid ~ .line {
+    height: 100%;
+    resize: none;
+    /* background-color: green; */
+}
+
+
+.demo-r .demo-form .row100 .inputBox textarea {
+    /* border: none;
+    background: transparent;
+    outline: none; */
+    position: relative;
+    width: 100%;
+    /* height: 100px; */
+    padding: 10px;
+    /* background-color: #fdf90c; */
+    /* height: 100%;
+    resize: none; */
+}
+
+/* .contact-r .contact-wrapper .row100 .col .inputBox .textarea {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding: 10px 0;
+}*/
+
+.demo-r .demo-form .row100 .inputBox textarea {
+    height: 100%;
+    resize: none;
+    /* background-color: green; */
+}
+
+.demo-r .demo-form .row100 input[type="submit"] {
+    border: none;
+    padding: 15px 25px;
+    cursor: pointer;
+    outline: none;
+    background: red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    float: right;
+    font-weight: bolder;
+    font-family: "Open Sans";
+}
+
+
+
+
+
+
+
+
+
+
+/* FORM STYLING ENDS HERE */
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE DEVICES ONLY */
+/* @media screen and (max-width: 1024px) { */
+    @media screen and (max-width: 767px) {
+
+    .demo {
+        padding: 0;
+        height: auto;
+    }
+
+    .demo-container {
+        width: 100%;
+        height: 100%;
+        float: left;
+        padding: 10px;
+        /* background-color: red; */
+    }
+
+    .demo-container .demo-l {
+        width: 100%;
+        height: auto;
+        padding: 0;
+    }
+
+    .demo-container .demo-r {
+        width: 100%;
+        height: auto;
+        /* height: 80vh; */
+
+    }
+
+    .demo-l .demo-header h5 {
+        vertical-align: bottom;
+        font-size: 25px;
+    }
+
+    .demo-content h1 {
+        /* font-size: 25px;
+        line-height: 25px;
+        margin-top: 0; */
+        font-size: 45px;
+        line-height: 40px;
+        margin-top: 30px;
+        font-weight: bolder;
+        color: #fff;
+    }
+
+    .demo-content p {
+        color: #d4f6f8;
+        font-size: 20px;
+        line-height: 18px;
+        width: 80%;
+        padding-right: 30px;
+    }
+
+    .demo-r {
+        padding: 0;
+        height: auto;
+        /* background-color: aqua; */
+        margin-bottom: 30px;
+    }
+
+    .demo-r .demo-form {
+        padding: 20px 20px;
+        height: auto;
+    }
+
+
+}
+
+
+
+
+
+
+/* FOR TABLET SCREENS */
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .demo {
+        width: 100%;
+        height: auto;
+        float: left;
+        background-color: #010911;
+        padding: 0;
+    }
+
+    .demo-container {
+        width: 100%;
+        height: auto;
+        /* background-color: red; */
+        padding: 35px;
+        float: left;
+    
+    }
+    
+    .demo-container .demo-l {
+        width: 100%;
+        height: 30%;
+        /* background-color: green; */
+        float: left;
+        padding: 5px;
+    }
+    
+    .demo-container .demo-r {
+        width: 100%;
+        height: auto;
+        /* background-color: yellow; */
+        float: left;
+        padding: 5px;
+        /* display: flex; */
+        
+    }
+
+    .demo-r .demo-form {
+        width: 70%;
+        height: auto;
+        margin: auto;
+        /* margin-top: 50px; */
+        float: right;
+        background-color: #021529;
+        padding: 70px;
+        box-shadow: 0 4px 4px 4px rgba(7, 7, 7, 0.23);
+        border-radius: 6px;
+        /* display: flex;
+        flex-direction: column; */
+    }
+
+}

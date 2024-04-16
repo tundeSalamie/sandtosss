@@ -1,0 +1,86 @@
+.custom-accordion .accordion-icon {
+    position: absolute;
+    right: 15px;
+    transition: all 0.3s;
+
+}
+
+.custom-accordion .card-body {
+    display: none;
+    /* background-color: #103152; */
+    background: #010911;
+    color: aliceblue;
+    font-size: 18px;
+    border: 1px solid rgb(4, 33, 49);
+    line-height: 20px;
+    /* transition: all 0.3s; */
+    /* rgb(4, 68, 105) #051422*/
+}
+
+.custom-accordion .accordion-active .card-body {
+    display: block;
+    /* transition: all 0.3s; */
+}
+
+.accordion-active .accordion-icon {
+    transform: rotate(90deg);
+}
+
+.custom-accordion .card-header {
+    cursor: pointer;
+    background: #051422;
+    /* background: #010911; */
+    height: 70px;
+    font-size: 20px;
+    padding: 20px;
+    /* border: 1px solid #355f8a; */
+    outline: none;
+    color: #e6e2e2;
+}
+
+.card {
+    /* background-color: rgb(4, 68, 105); */
+    background-color: #010911;
+    margin: 1px;
+    border-radius: 2px;
+}
+
+
+
+/* MOBILE DEVICES ONLY */
+/* @media screen and (max-width: 1024px) { */
+    @media screen and (max-width: 767px) {
+
+        .custom-accordion .card-header {
+            cursor: pointer;
+            background: #051422;
+            /* background: #010911; */
+            /* height: 50px; */
+            height: auto;
+            font-size: 18px;
+            padding: 10px;
+            /* border: 1px solid #355f8a; */
+            outline: none;
+            color: #e6e2e2;
+        }
+        
+        .card {
+            /* background-color: rgb(4, 68, 105); */
+            background-color: #010911;
+            margin: 0;
+            border-radius: 2px;
+        }
+
+        .custom-accordion .card-body {
+            display: none;
+            /* background-color: #103152; */
+            background: #010911;
+            color: aliceblue;
+            font-size: 18px;
+            line-height: 18px;
+            border: 1px solid rgb(4, 33, 49);
+            /* rgb(4, 68, 105) #051422*/
+        }
+
+
+    }
